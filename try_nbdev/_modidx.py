@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://2catycm.github.io',
                 'git_url': 'https://github.com/2catycm/try-nbdev',
                 'lib_path': 'try_nbdev'},
-  'syms': {'try_nbdev.core': {'try_nbdev.core.foo': ('core.html#foo', 'try_nbdev/core.py')}}}
+  'syms': { 'try_nbdev.nucleus': { 'try_nbdev.nucleus.foo': ('any_notebook_name.html#foo', 'try_nbdev/nucleus.py'),
+                                   'try_nbdev.nucleus.say_hello': ('any_notebook_name.html#say_hello', 'try_nbdev/nucleus.py')}}}

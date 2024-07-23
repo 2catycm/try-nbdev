@@ -14,6 +14,12 @@ pip install try_nbdev
 
 ## How to use
 
+> We recommend including a longer description about what your package
+> does, how to install it, and how to use it (with a few examples which
+> import and use your package). Remember, examples can be code cells
+> with real outputs rather than plain markdown text – they’ll double as
+> tests too!
+
 Fill me in please! Don’t forget code examples:
 
 ``` python
@@ -21,3 +27,24 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+``` python
+"Hello World" is not None
+```
+
+    <>:1: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+    <>:1: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+    /tmp/ipykernel_19445/1792726687.py:1: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+      "Hello World" is not None
+
+    True
+
+``` python
+1!=2
+```
+
+    True
+
+00_core.ipynb You don’t have to start your notebook names with a number,
+but we find it helpful to show the order that your project should be
+read in
