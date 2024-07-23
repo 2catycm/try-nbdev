@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "try-nbdev"
+  site-url: "https://2catycm.github.io/try-nbdev"
+  description: "Try nbdev tutorial"
+  repo-branch: main
+  repo-url: "https://github.com/2catycm/try-nbdev"
