@@ -48,3 +48,22 @@ Fill me in please! Don’t forget code examples:
 00_core.ipynb You don’t have to start your notebook names with a number,
 but we find it helpful to show the order that your project should be
 read in
+
+## How to develop?
+
+### push your commit
+
+``` bash
+nbdev_prepare
+git add .
+git commit
+git push
+```
+
+``` python
+# #!/bin/usr/bash
+# nbdev_prepare
+# git add .
+# git commit
+# git push
+```
